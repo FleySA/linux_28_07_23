@@ -1,0 +1,32 @@
+   0 echo $(date) > /tmp/hw3/sergej
+   1 mkdir /tmp/hw3/sergej
+   2 cd /tmp
+   3 mkdir /hw3
+   4 cd hw3
+   5 cd /hw3
+   6 echo $(date) > /tmp/hw3/sergej
+   7 cd /hw3
+   8 touch /tmp/hw3/sergej
+   9 touch sergej
+  10 cd
+  11 echo $(date) > /tmp/hw3/sergej
+  12 cd /home
+  13 tree
+  14 cd /tmp
+  15 tree
+  16 cd
+  17 mkdir -p /tmp/hw3/sergej
+  18 echo $(date) > /tmp/hw3/sergej
+  19 echo $(date) > /tmp/hw3/sergej/sergej.txt
+  20 echo "Homework 3" >> /tmp/hw3/sergej/sergej.txt
+  21 df -h / >> /tmp/hw3/sergej/sergej.txt
+  22 history | tail -n 5 >> /tmp/hw3/sergej/sergej.txt
+  23 grep "vendor" /proc/cpuinfo >> /tmp/hw3/sergej/sergej.txt
+  24 cat /tmp/hw3/sergej/sergej.txt
+  25 history
+  26 history > history_28_07.txt
+  27 export file_histori_28_07.txt
+  28 export file_histori_15.txt
+  29 export_file histori_15.txt
+  30 export_file histori_28_07.txt
+  31 history > history_28_07.txt
